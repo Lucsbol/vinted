@@ -1,0 +1,355 @@
+body {
+  background-color: #eaedee;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.headerContainer {
+  display: flex;
+  width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+header img {
+  height: 40px;
+  width: 100px;
+  object-fit: cover;
+}
+header button {
+  height: 40px;
+  width: 150px;
+}
+
+header input {
+  width: 200px;
+}
+
+.inner {
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 455px;
+}
+
+.inner-text {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 2px lightgrey;
+  display: flex;
+  flex-direction: column;
+  font-size: 34px;
+  height: 220px;
+  justify-content: center;
+  padding: 25px;
+  position: absolute;
+  top: 75px;
+  width: 360px;
+  margin: 100px 300px 0px 300px;
+}
+
+.inner button {
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 3px;
+  background-color: #2aaeb7;
+  border: none;
+}
+
+main {
+  background-color: #eaedee;
+}
+main img {
+  height: 360px;
+  width: 235px;
+  object-fit: cover;
+}
+.card-list {
+  margin: 20px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* -------------------- */
+/* -----PAGE OFFERS---- */
+/* -------------------- */
+
+.button-back {
+  background-color: #017580;
+  color: white;
+  font-size: 13px;
+  margin: 10px 10px;
+  border-radius: 3px;
+}
+.offer-Details {
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.offer-Details p {
+  color: rgb(102, 101, 101);
+}
+
+.offer-Img img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.offer-Container {
+  margin: 100px;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+}
+
+div .offer-Price {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+main .offer-Details .avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+  /* border: 1px solid red; */
+}
+
+/* -------------------- */
+/* -----PAGE SIGNUP---- */
+/* -------------------- */
+
+.signup {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+  background-color: white;
+  border: 1px solid rgb(43, 0, 255);
+}
+input {
+  margin-top: 20px;
+  height: 30px;
+  width: 200px;
+}
+
+.politique {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.checkbox span {
+  color: black;
+  font-size: 20px;
+}
+form button {
+  background-color: #017580;
+  color: white;
+  height: 30px;
+  width: 200px;
+}
+/*
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*/
+.headerContainer button.authButton {
+  border: 2px solid #2aaeb7;
+  color: #2aaeb7;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.headerContainer button.sellButton {
+  background-color: #2aaeb7;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+
+.offer-Container {
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+}
+
+.offer-Details {
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+div .offer-Price {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+main .offer-Details .avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.card-username {
+  display: flex;
+  align-items: center;
+}
+
+.logoutButton {
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 3px;
+  background-color: #c2175b;
+  border: none;
+}
+
+.publish-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.publish-form {
+  width: 100%;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publish-block {
+  margin-bottom: 20px;
+}
+
+.publish-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.publish-picture img {
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 10px;
+}
+
+.publish-title,
+.publish-description,
+.publish-brand,
+.publish-size,
+.publish-color,
+.publish-condition,
+.publish-place,
+.publish-price,
+.publish-submit {
+  display: flex;
+  flex-direction: column;
+}
+
+.publish-title label,
+.publish-description label,
+.publish-brand label,
+.publish-size label,
+.publish-color label,
+.publish-condition label,
+.publish-place label,
+.publish-price label {
+  margin-bottom: 5px;
+}
+
+.publish-title input,
+.publish-description textarea,
+.publish-brand input,
+.publish-size input,
+.publish-color input,
+.publish-condition input,
+.publish-place input,
+.publish-price input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.publish-description textarea {
+  resize: vertical;
+}
+
+.publish-submit input {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+}
