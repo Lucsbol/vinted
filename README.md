@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 # vinted
 # vinted
 # vinted
+# vinted
